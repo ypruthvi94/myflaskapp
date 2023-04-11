@@ -19,7 +19,7 @@ class TestClass():
         assert response.mimetype == 'text/html'
 
      
-    #test case: /add endpoint (valid input)
+    #tests cases: /add endpoint (valid input)
     def test_add1(self):
         response = self.app.get('/add?op1=3&op2=4')
         
