@@ -10,7 +10,7 @@ class TestClass():
     def teardown_class(self):
         pass
         
-    #test case: / endpoint
+    #test case: / endpoints
     def test_hello(self):
         response = self.app.get('/')
         
